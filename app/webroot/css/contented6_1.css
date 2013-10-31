@@ -1,0 +1,469 @@
+/***************************************************************************
+*                                                                          *
+* contented6 - An open source xhtml/css website template by Contented      *
+* Designs.  You're free to modify it and use it for any purpose without    *
+* cost or obligation. We'd prefer that you leave the link to our website   *
+* in the footer but it's not required.                                     *
+*                                                                          *
+* If you have comments or questions, please contact us at                  *
+* http://www.ContentedDesigns.com. Thanks!                                 *
+*                                                                          *
+* Version: 1.01 (May 17, 2006)                                             *
+***************************************************************************/
+
+* {
+	padding: auto;
+	margin: auto;
+}
+
+body {
+	color: #333333;
+	background-color:#FFFFFF;
+        background: url('../img/bg1.jpg');
+
+        font-family:Verdana,Tahoma,Arial,sans-serif;
+	font-size:83%;
+	margin:20px auto;
+	width:1150px;
+	padding-left:10px;
+	padding-right:10px;
+        
+}
+
+.highlight {
+	font-family:'Courier New',Verdana,Tahoma,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address { margin:0.75em 0;}
+
+h1 {font-size:167%;}
+
+h2 {font-size:139%;}
+
+h3 {font-size:120%;}
+
+h4 {font-size:100%;}
+
+li, dd { 
+	margin-left:2em;
+}
+
+a {
+	color: #0066CC;
+	background-color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0000FF;
+	background-color: #E6ECFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+#header {
+	color: #FFFFFF;
+	background-color: tomato;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+
+#title {
+	color: #FFFFFF;
+	background-color: #e32;
+	font-size:400%;
+	font-weight: lighter;
+	padding:10px 0px 0px 20px;
+	margin:0px 0px 0px 0px;
+	float:left;
+	width:740px;
+}
+
+ul#nav {
+	clear:both;
+	float: inside;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
+	list-style:none;
+	width:100%;
+	color:#FFFFFF;
+	background-color:#3366CC;
+}
+
+ul#nav li {
+	margin: 5px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: start;
+}
+
+ul#nav li a {
+	display: block;
+	margin: 0px 2px 0px 0px;
+	padding: 5px 10px 5px 10px;
+	color: #FFFFFF;
+	background-color:#6699FF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+ul#nav li a:hover { 
+	border-bottom:3px solid #FFFFFF;
+}
+
+ul#nav a.selected { 
+	border-bottom:3px solid #FFFFFF;
+}
+
+
+#slogan {
+	color: #FFFFFF;
+	background-color:#6699FF;
+	width:740px;
+	clear:both;
+	float:left;
+	font-size:100%;
+	font-style:normal;
+	font-weight: normal;
+	padding:4px 0px 2px 20px;
+	margin:6px 0px 0px 0px;
+}
+
+#content {
+	font-size:100%;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	width:760px;
+	float:left;
+	border-top:5px solid #6699FF;
+}
+
+#maincontent {
+	font-size:100%;
+	padding:0px 5px 5px 0px;
+	margin:0px 0px 0px 0px;
+	width:540px;
+	float:left;
+}
+
+#sidecontent {
+	font-family:Arial, sans-serif;
+	color: #333333;
+	background:#E6ECFF;
+	font-size:85%;
+	padding:5px 10px 10px 10px;
+	margin:15px 0px 15px 0px;
+	width:180px;
+	float:right;
+	border: #0066CC solid thin;
+}
+
+#sidecontent a {
+	color: #0066CC;
+	background:#E6ECFF;
+}
+
+#sidecontent a:hover {
+	color: #0000FF;
+	background: #D6DCDF;
+}
+
+#sidecontent h2 { margin:0.75em 0.25em 0.25em 0em;}
+
+#sidecontent ul { margin:0.25em 0.25em 0.25em 0.25em;}
+
+#sidecontent p { margin:0em 0em 0em 0em;}
+
+#nullblock {} /* Used to avoid IE jump on hover bug */
+
+#footer {
+	height:60px;
+	color:#333333;
+	background-color:#FFFFFF;
+	border-top:6px solid #6699FF;
+	font-size:100%;
+	width: 1060px;
+	clear:both;
+}
+
+#footer	a {
+	color:#0066background-colorCC;
+	background-color :#FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#footer	a:hover {
+	color:#0000FF;
+	background-color:#E6ECFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#copyrightdesign {
+	color:#666666;
+	background-color:#FFFFFF;
+	padding:5px 20px 5px 0px;
+	width: 580px;
+	float:left;
+}
+
+#footercontact {
+	color:#0066CC;
+	background-color:#FFFFFF;
+	padding:5px 0px 5px 0px;
+	float:right;
+}
+
+#footercontent a {
+	color: #0066CC;
+	background-color:#FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#footercontent a:hover {
+	color: #0000FF;
+	background-color: #E6ECFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* tables */
+/* 
+	Cusco Sky table styles
+	written by Braulio Soncco http://www.buayacorp.com
+*/
+
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+}
+
+caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+td, th {
+	padding: 4px;
+}
+
+thead th {
+	text-align: center;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100% !important;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr { background: #FCFDFE; }
+
+tbody tr.odd { background: #F7F9FC; }
+
+table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: #718ABE;
+	text-decoration: underline !important;
+}
+
+tfoot th {
+	font-size: 85%;
+}
+
+dt {
+    font-style: italic;
+    font-size: 14px;
+    color: red
+        
+}
+
+form {
+	clear: both;
+	margin-right: 20px;
+	padding: 0;
+	width: 95%;
+}
+fieldset {
+  padding: 1em;
+  font:80%/1 sans-serif;
+  display: block;
+  }
+label {
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  font-size: 12px
+  }
+fieldset legend {
+	color: #0000FF;
+	font-size: 160%;
+	font-weight: bold;
+        font-style: oblique;
+        
+}
+fieldset fieldset {
+	margin-top: 0;
+	padding: 10px 0 0;
+        display: block;
+        
+}
+fieldset fieldset legend {
+	font-size: 140%;
+	font-weight: normal;
+}
+fieldset fieldset div {
+	clear: left;
+	margin: 0 70px;
+        
+}
+
+
+/*
+  Hide radio button (the round disc)
+  we will use just the label to create pushbutton effect
+*/
+input[type=radio] {
+    display:none; 
+    margin:20px;
+}
+ 
+/*
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+*/
+input[type=radio] + label {
+    display:inline-block;
+    margin:2px;
+    padding: 4px 12px;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+}
+/*
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+*/
+input[type=radio]:checked + label { 
+   background-image: none;
+    background-color: deepskyblue;
+}
+
+/**  Actions  **/
+.actions ul {
+	margin: 0px;
+	padding:0px;
+}
+.actions li {
+	margin:0px 0 0.5em 0;
+	list-style-type: none;
+	white-space: nowrap;
+	padding: 2px;
+}
+.actions ul li a {
+	font-weight: normal;
+	display: block;
+	clear: both;
+        background: darkturquoise;
+        font-style: oblique;
+        font-size: 12px;
+        list-style-type: georgian;
+        
+}
+
+div.form,
+div.index,
+div.view {
+	float:right;
+	width:70%;
+	border-left:3px solid  #0000FF;
+	padding:0px 1%;
+}
+div.actions {
+	float:left;
+	width:20%;
+	padding:10px 1.5%;
+}
+div.actions h3 {
+	padding-top:0;
+	color: red;
+}
+
+form .required {
+	font-weight: bold;
+}
+form .required label:after {
+	color: #e32;
+	content: '*';
+	display:inline;
+}
+
+	/* Buttons and button links */
+input[type=submit],
+input[type=reset],
+.actions ul li a,
+.actions a {
+	font-weight:normal;
+	padding: 4px 4px;
+        
+	background: #dcdcdc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#dcdcdc));
+	background-image: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -moz-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -ms-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -o-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: linear-gradient(top, #fefefe, #dcdcdc);
+	color:black;
+	border:1px solid #bbb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-shadow: #fff 0px 1px 0px;
+	min-width: 0px;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-user-select: none;
+	user-select: none;
+}
+.actions ul li a:hover,
+.actions a:hover {
+	background: #e32;
+	border-color: #acacac;
+	text-decoration: none;
+}
+input[type=submit]:active,
+.actions ul li a:active,
+.actions a:active {
+	background: #eee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#dfdfdf), to(#eee));
+	background-image: -webkit-linear-gradient(top, #dfdfdf, #eee);
+	background-image: -moz-linear-gradient(top, #dfdfdf, #eee);
+	background-image: -ms-linear-gradient(top, #dfdfdf, #eee);
+	background-image: -o-linear-gradient(top, #dfdfdf, #eee);
+	background-image: linear-gradient(top, #dfdfdf, #eee);
+	text-shadow: #eee 0px 1px 0px;
+	-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+	border-color: #aaa;
+	text-decoration: none;
+}
